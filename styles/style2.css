@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/rosa.jpg);
+    background-size: cover;
+
+  
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    transition: all 0.5s ease;
+    
+  
+   
+}
+.nav.active{
+    background-color: rgb(214, 202, 133);
+}
+.nav.active .logo{
+    color: rgb(44, 131, 44);
+}
+.nav.active .menu a{
+    color: black;
+}
+.nav.active a:hover{
+    background-color: rgb(234, 220, 140);
+}
+.logo{
+    padding-left: 50px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style:none;
+    margin: 10px;
+
+}
+.menu li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    transition: all 0.5s ease;
+    padding-right: 35px;
+}
+.menu li a:hover{
+    padding: 5px 10px;
+    background:rgb(223, 255, 248);
+    border-radius: 15px;
+
+}
+.scroll{
+    height: 100px;
+}
+body{
+    background-image: url(/images/fiestas.jpg);
+
+}
+.titulo{
+    color: red;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+p{
+    font-size: 25px;
+}
+.mama1{
+    height: 30%;
+    width: 30%;
+    margin-left: 650px;
+    margin-bottom: 30px;
+}
+.reproductor{
+    height: 300px;
+    width: 550px;
+    margin-left: 650px;
+}
+.mami2{
+    height: 70%;
+    width: 70%;
+}

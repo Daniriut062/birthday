@@ -69,10 +69,29 @@ header{
     height: 100px;
 }
 body{
-    background-image: url(/images/fiesta.webp);
+    background-image: url(/images/fiestas.jpg);
 
 }
 .titulo{
     color: red;
     margin-left: 30px;
+    margin-top: 15px;
+}
+p{
+    font-size: 25px;
+}
+.mama1{
+    height: 30%;
+    width: 30%;
+    margin-left: 650px;
+    margin-bottom: 30px;
+}
+.reproductor{
+    height: 300px;
+    width: 550px;
+    margin-left: 650px;
+}
+.mami2{
+    height: 70%;
+    width: 70%;
 }

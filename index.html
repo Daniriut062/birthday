@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div>
         <header>
             <nav class="nav">
                 <div class="logo">Mamá</div>
                 <ul class="menu">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="imagenes.html">Creaciones</a>
+                    <li><a href="index.html">Mamii</a></li>
+                    <li><a href="imagenes.html">Galeria</a>
                     <li>
                 </ul>
 
@@ -26,6 +28,8 @@
         </header>
         <div class="scroll">
 
+
+        </div>
 
     </div>
 
@@ -55,14 +59,79 @@
                 </p>
                 &nbsp;
                 <p>
-                    MAMÁ es mucho lo que tengo que AGRADECERTE, por eso mi CORAZÓN nunca dejará de QUERERTE. Te QUIERO. GRACIAS MAMÁ.
+                    MAMÁ es mucho lo que tengo que AGRADECERTE, por eso mi CORAZÓN nunca dejará de QUERERTE. Te
+                    QUIERO. GRACIAS MAMÁ.
+                </p>
+                &nbsp;
+                <p>
+                    GRACIAS MAMÁ porque me diste la VIDA y me entregaste todo tu AMOR. Porque velaste mis SUEÑOS y
+                    modelaste mi CORAZÓN. Porque siempre escuchas mis DUDAS, y tu CONSEJO me hace cada día MEJOR.
+                    Porque hoy LUCHO y TRABAJO y tus ENSEÑANZAS me dan VALOR. ¡GRACIAS MAMÁ por tu AMOR!
                 </p>
             </div>
+            <img class="mama1" src="/images/mamanegro.jpg" alt="mama">
+
+            <div>
+                <h1 class="titulo">Algunas Frases</h1>
+                <div>
+                    <div>
+                        &nbsp;
+                        <p>
+                            Querida mamá, de ti recibí los mejores regalos: la vida y amor infinito, y aunque jamás
+                            podré compensarte por todo lo que me has dado, lo voy a intentar siempre. ¡Feliz cumpleaños!
+                        </p>
+                        &nbsp;
+                        <p>
+                            Te deseo un día maravilloso, de muchas alegrías, que en tu rostro baile la más bella de las
+                            sonrisas, que tu corazón se llene de felicidad y gratitud, y que sepas que todo mi amor y
+                            admiración son para ti.
+                        </p>
+                        &nbsp;
+                        <p>
+                            Es un orgullo tenerte como madre. ¡Te amo mucho!
+                        </p>
+
+                    </div>
+                    &nbsp;
+                    <div>
+                        &nbsp;
+
+                        <p>
+                            ¡Mamá, feliz feliz cumpleaños! Eres la persona más especial para mí, quien me ha dado todas
+                            las lecciones de vida que, hasta hoy, llevo conmigo.
+                        </p>
+                        &nbsp;
+                        &nbsp;
+                        <p>
+                            En este tu día especial en el que cumples un año más de vida, quería que supieras cuanto te
+                            amo y te respeto. tener una mamá como tú no tiene precio. Cada día doy gracias por ello.
+                            ¡Muchas felicidades!"
+                        </p>
+                    </div>
+
+                    <img class="mama1" src="/images/mamaypapa.jpg" alt="mama">
+
+                </div>
+            </div>
         </div>
-    </div>
+
+        <div>
+          
+            <button class="reproductor">DAME CLICK</button>
+            <script>
+                let boton = document.querySelector(".reproductor")
+
+                boton.addEventListener("click", () => {
+                let etiquetaAudio = document.createElement("audio")
+                etiquetaAudio.setAttribute("src", "/sonido.mp3")
+                 etiquetaAudio.play()
+                })
+            </script>
+        </div>
 
 
 
-    <script src="menu.js"></script>
+        <script src="menu.js"></script>
 </body>
+
 </html>
